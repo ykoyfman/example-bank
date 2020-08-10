@@ -35,6 +35,8 @@ spec:
           value: "http://process-transaction.bank-renamed-no-mesh.svc.cluster.local"
         - name: WLP_LOGGING_CONSOLE_LOGLEVEL
           value: INFO
+        - name: CONTEXT_DIR
+          value: "transaction-service"
 ---
 apiVersion: v1
 kind: Service
