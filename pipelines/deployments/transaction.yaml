@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: transaction-service
-        image: image-registry.openshift-image-registry.svc:5000/bank-infra/transaction:latest
+        image: image-registry.openshift-image-registry.svc:5000/example-bank/transaction:latest
         imagePullPolicy: Always
         ports:
         - name: http-server
