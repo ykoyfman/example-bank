@@ -29,7 +29,7 @@ spec:
         app: mobile-simulator
     spec:
       containers:
-        - image: image-registry.openshift-image-registry.svc:5000/bank-infra/ui
+        - image: image-registry.openshift-image-registry.svc:5000/bank-infra/ui:latest
           imagePullPolicy: Always
           name: mobile-simulator
           envFrom:
