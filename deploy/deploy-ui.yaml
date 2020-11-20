@@ -33,7 +33,7 @@ spec:
         app: mobile-simulator
     spec:
       containers:
-        - image: ykoyfman/mobile-simulator:ga
+        - image: quay.io/loafyloaf/bank-argo-infra:37e7c6f1ac9e1ccb503be106ad09e894f247c9af
           imagePullPolicy: Always
           name: mobile-simulator
           envFrom:
